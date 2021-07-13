@@ -1,5 +1,5 @@
 # Graphing with altair
-Altair is an open source graphing library which can create interactive graphs.
+Altair is an open source graphing library which can create interactive graphs. This repository uses Altair to create such graphs for medical data (lab reports)
 
 
 ## Graph content
@@ -11,6 +11,8 @@ The following functionalities are present in the final graph:
 * Show vertical rules on certain dates
 
 ## Input
+A sample input.csv file has been provided for direct usage in graph.ipynb. Otherwise, a raw ods file (xlsx/csv also works) has also been provided which needs to be processed via clean.ipynb
+
 The final cleaned data has 3 levels of indexes and 3 mandatory columns ('value', 'UPPER': upper bound and 'LOWER':lower bound). The 1st level of index has no purpose (it could serve as another level of toggling since it's a higher level of categorisation for the next indexing layer). The last index is the date.
 
 For reference, the final dataset looks like this
@@ -20,6 +22,9 @@ For reference, the final dataset looks like this
 
 Category       Subcategory       Date
 ```
+
+## Usage
+Run graph.ipynb directly, which uses input.csv. Otherwise, use clean.ipynb to create the input csv file from the raw ods file and then run the main notebook.
 
 # References
 * add selector in one part and filter in another: https://altair-viz.github.io/user_guide/transform/filter.html#selection-predicates\n
