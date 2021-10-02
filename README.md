@@ -27,9 +27,9 @@ Category       Subcategory       Date
 Run graph.ipynb directly, which uses input.csv. Otherwise, use clean.ipynb to create the input csv file from the raw ods file and then run the main notebook.
 
 # References
-* add selector in one part and filter in another: https://altair-viz.github.io/user_guide/transform/filter.html#selection-predicates\n
-* rulers: https://altair-viz.github.io/gallery/bar_chart_with_mean_line.html\n
-* highlighting: https://altair-viz.github.io/gallery/multiline_highlight.html\n
-* toggling: https://github.com/altair-viz/altair/issues/954\n
-* rulers, sliders and buttons: https://altair-viz.github.io/gallery/multiple_interactions.html
+* Add selector in one part and filter in another: https://altair-viz.github.io/user_guide/transform/filter.html#selection-predicates\n
+* Rulers: https://altair-viz.github.io/gallery/bar_chart_with_mean_line.html\n
+* Highlighting: https://altair-viz.github.io/gallery/multiline_highlight.html\n
+* Toggling: https://github.com/altair-viz/altair/issues/954\n
+* Rulers, sliders and buttons: https://altair-viz.github.io/gallery/multiple_interactions.html
 
